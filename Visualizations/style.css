@@ -1,0 +1,120 @@
+body {
+    background-color: lightgray;
+}
+
+a.navbar-brand{
+    margin-left: 10px;
+    background-color: teal; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 12px
+}
+
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right: 30px
+}
+
+.col-md-12{
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px
+}
+
+h3{
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p{
+    line-height: 1.5;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-thumbnail{
+    border: none;
+    padding: 5px;
+}
+
+a.border{
+    border: 15px solid;
+    border-color: teal;
+}
+
+#comparison{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px
+}
+
+h2{
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h4{
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.comparison_p{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0%;
+}
+
+#data-format{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0%;
+}
+
+#table-format{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px; 
+    border: none;
+}
+
+thead{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+tbody{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .navbar.navbar-light{
+        background-color: teal !important;
+    }
+
+    .navbar-collapse{
+        background-color: white;
+    }
+
+    .navbar{
+        padding:inherit
+    }
+
+    .navbar-toggler {
+        border-color: grey;
+    }
+}
